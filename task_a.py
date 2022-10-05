@@ -13,8 +13,8 @@ def first_non_repeating_letter(string: str) -> str:
     :rtype: str
     :return: first nonrepeated symbol
     """
-    # через listcomprehension сгенерировать список всех символов входящих 1 раз
-    # и вернуть 1 элемент или пустую строку:
+    # поинтереснее: через listcomprehension сгенерировать список всех символов входящих 1 раз
+    # и вернуть первый элемент или пустую строку:
     return ([symb for symb in string
             if string.lower().count(symb.lower()) == 1] or [''])[0]
 
