@@ -1,1 +1,2 @@
-# test_tasks_for_joki_joya
+# Тестовое задание на позицию Python-разработчик
+
